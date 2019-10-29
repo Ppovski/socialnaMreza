@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Player Profile</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- Navigacija -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html"> <img src="img/logo1.png" class="img-responsive" style="margin-bottom: 25px; margin-top: -8px"> </a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class=""><a href="index.html" style="color:white;">Home</a></li>
+            <li class="active"><a href="#">Player</a></li>
+            <li><a href="scout.html" style="color:white;">Scout</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="pocetna.html"><span class="glyphicon glyphicon-log-in" style="color: white"></span> <span style="color: white">Logout</span> </a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Glaven del -->
+<div class="row" style="margin-top: 75px"></div></br>
+  <div class="container">
+    <div class="row">
+      <!-- Lev del -->
+      <div class="col-md-3">
+        <div class="well">
+          <h4 class="centrirana">My Profile</h4>
+          <img class="slika " src="img/maldini.jpg" alt="" style="margin-left: px">
+          <hr>
+          <p><i class="glyphicon glyphicon-pencil"></i>Paulo Maldini - Milan</p>
+          <p><i class="glyphicon glyphicon-home"></i>Milan, Italy</p>
+          <p><i class="glyphicon glyphicon-gift"></i>26 June 1968</p>
+        </div>
+        <div class="well">
+          <h5>Interests</h5>
+          <span class="label label-default">Football</span>
+          <span class="label label-primary">Player</span>
+          <span class="label label-success">Goals</span>
+          <span class="label label-info">Skills</span>
+          <span class="label label-warning">Friendly</span>
+          <span class="label label-danger">Social</span>
+        </div>
+      </div>
+      <!-- Centralen -->
+      <div class="col-md-6">
+        <textarea contenteditable="true" class="vlez" id="comment"> </textarea>
+        <button type="button" class="btn btn-primary" onclick="whats()">Post</button>
+        <hr>
+        <span id="tuka"></span> 
+      </div>
+      <!-- Desen -->
+      <div class="col-md-3">
+        <div class="well">
+          <h4>Trophy room</h4>
+          <hr style="margin-bottom: 10px; margin-top: 0px;">
+          <img class="img trofej" src="img/CL.png" alt="">
+          <img class="img trofej" src="img/Premier.png" alt="">
+          <img class="img trofej" src="img/SeriaA.png" alt="">
+          <img class="img trofej" src="img/FACUP.png" alt="">
+        </div>
+        <div class="well">
+          <div class="panel-group">
+            <h4>Carrier information</h4>
+            <hr style="margin-bottom: 10px; margin-top: 0px;">
+            <div class="panel panel-primary">
+              <div class="panel-heading">Personal information</div>
+              <div class="panel-body">
+              <span class="pull-left">Full name</span>
+              <span class="pull-right">Paolo Cesare Maldini</span>
+              </div>
+              <div class="panel-body">
+              <span class="pull-left">Date of birth</span>
+              <span class="pull-right">26 June 1968</span>
+              </div>
+                <div class="panel-body">
+                    <span class="pull-left">Date of birth</span>
+                    <span class="pull-right">Milan, Italy</span>
+                </div>
+                <div class="panel-body">
+                    <span class="pull-left">Height</span>
+                    <span class="pull-right">1.86 m</span>
+                </div>
+                <div class="panel-body">
+                    <span class="pull-left">Playing position</span>
+                    <span class="pull-right">	Defender</span>
+                </div>
+
+            </div>
+            <div class="panel panel-primary">
+              <div class="panel-heading">Place of birth</div>
+              <div class="panel-body">
+              <span class="panel-text-left"><b>Years</b></span>
+              <span class="panel-text-right"><b>Team</b></span>
+              </div>
+              <div class="panel-body">
+              <span >1985-2009</span>
+              <span class="pull-right">Milan</span>
+              </div>
+
+            </div>
+            <div class="panel panel-primary">
+              <div class="panel-heading">National team</div>
+                <div class="panel-body">
+                    <span class="panel-text-left"><b>Years</b></span>
+                    <span class="panel-text-right"><b>Team</b></span>
+                </div>
+              <div class="panel-body">
+              <span >1986-1988</span>
+              <span class="pull-right">Italy U21</span>
+              </div>
+              <div class="panel-body">
+              <span >1988-2002</span>
+              <span class="pull-right" >Italy</span>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

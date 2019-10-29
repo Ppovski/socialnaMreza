@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Scout</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- Navigacija -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html"> <img src="img/logo1.png" class="img-responsive"
+                                                   style="margin-bottom: 25px; margin-top: -8px"> </a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class=""><a href="index.html" style="color:white;">Home</a></li>
+            <li><a href="PlayerProfile.html" style="color:white;">Player</a></li>
+            <li class="active"><a href="#" style="color:white;">Scout</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="pocetna.html"><span class="glyphicon glyphicon-log-in" style="color: white"></span> <span
+                    style="color: white">Logout</span> </a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Glaven del -->
+<div class="row" style="margin-top: 75px"></div></br>
+<div class="container">
+    <div class="row">
+        <!-- Lev del -->
+        <div class="col-md-3">
+            <div class="well">
+                <h4 class="centrirana">My Profile</h4>
+                <img class=" slika" src="img/mino.jpg" alt="">
+                <hr>
+                <p><i class="glyphicon glyphicon-pencil"></i>Carmine "Mino" Raiola</p>
+                <p><i class="glyphicon glyphicon-home"></i> Nocera Inferiore, Italy</p>
+                <p><i class="glyphicon glyphicon-gift"></i> 4 November 1967</p>
+            </div>
+            <div class="well">
+                <h5>Interests</h5>
+                <span class="label label-default">Football</span>
+                <span class="label label-primary">Player</span>
+
+                <span class="label label-info">Skills</span>
+                <span class="label label-warning">Friendly</span>
+                <span class="label label-danger">Social</span>
+            </div>
+        </div>
+        <!-- Centralen -->
+        <div class="col-md-6">
+            <textarea contenteditable="true" class="vlez" id="comment"> </textarea>
+            <button type="button" class="btn btn-primary" onclick="whats()">Post</button>
+            <hr>
+            <span id="tuka"></span>
+        </div>
+        <!-- Desen -->
+        <div class="col-md-3">
+            <div class="well">
+                <h4>Selection of transfer deals brokered</h4>
+                <hr style="margin-bottom: 10px; margin-top: 0px;">
+                <img class="img trofej" src="img/pogba.jpg" alt="">
+                <img class="img trofej" src="img/Baloteli.jpg" alt="">
+                <img class="img trofej" src="img/ibra.png" alt="">
+                <img class="img trofej" src="img/Nedved.jpg" alt="">
+            </div>
+            <div class="well">
+                <div class="panel-group">
+                    <h4>Carrier information</h4>
+                    <hr style="margin-bottom: 10px; margin-top: 0px;">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading"> Born</div>
+                        <div class="panel-body" >
+                           <span style="font-family: Helvetica,Arial,sans-serif"> Carmine Raiola </br>
+                                4 November 1967 (age 49)</br>
+                                Nocera Inferiore, Italy</span>
+                        </div>
+                    </div>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">Nationality</div>
+                        <div class="panel-body">
+                            <span >Italian</br></span>
+                            <span>Dutch</span>
+                        </div>
+
+
+
+
+
+
+                    </div>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">Occupation</div>
+                        <div class="panel-body">
+                            <span class="pull-left" >Football agent</span>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<script src="js/script.js"></script>
+</body>
+</html>
